@@ -1,0 +1,100 @@
+/* Base css */
+body{
+    background-color: 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+margin: 0 0 15px;
+font-weight: 700;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover{text-decoration: none;}
+.section-padding{
+  padding:50px 0;
+
+
+}
+.portpholio-list{
+    overflow: hidden;
+    margin-top: 30px;
+
+
+}
+.single-portpholio-item{
+    float: left;
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-color: #333;
+}
+.single-portpholio-item.large-bg{
+    height: 500px;
+    width: 40%;
+}
+.single-portpholio-item.wide-bg{
+ 
+    width: 40%;
+}
+
+.portpholio-bg-1{
+    background-image: url(../img/2.jpg);
+}
+.portpholio-bg-2{
+    background-image: url(../img/3.jpg);
+}
+.portpholio-bg-3{
+    background-image: url(../img/4.jpg);
+}
+.portpholio-bg-4{
+    background-image: url(../img/5.jpg);
+}
+.portpholio-bg-5{
+    background-image: url(../img/6.jpg);
+}
+.portpholio-bg-6{
+    background-image: url(../img/7.jpg);
+}
+.section-bg-1{
+ background-image: url(../img/1.jpg);
+ background-size: cover;
+    background-position: center;
+    background-color: #333;
+
+
+}
+.text-center{
+   
+}
+.black-overlay {
+    position: relative;
+    z-index: 2;
+     color: #fff;
+     text-transform: uppercase;
+}
+
+
+.black-overlay:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .7;
+
+}
